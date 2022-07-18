@@ -1,5 +1,6 @@
-<img src="https://img-blog.csdnimg.cn/e96d5800cb43408ea543a8d5951e6f61.png" alt="Bildbeschreibung hier einfügen"><br> Guangzhou Qianhui Information Technology Co., Ltd.</p>
-<p>MKS TinyBee V1.0Handbuch<br> Link zum Mainboard-Kauf:<a href="https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-23356668283.49.111f55catPnZtX&amp;id=665679380115">https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-23356668283.49.111f55catPnZtX&amp;id=665679380115</a><br> <img src="https://img-blog.csdnimg.cn/dfe97a1c7af14ebfb552adf90f6ecbdc.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="Bildbeschreibung hier einfügen"></p>
+<p><img src="img/logo.png"><br>Guangzhou Qianhui Information Technology Co., Ltd.</p>
+<p>MKS TinyBee V1.0Handbuch<br>Link zum Mainboard-Kauf:<a href="https://www.aliexpress.com/item/1005003640084870.html">https://www.aliexpress.com/item/1005003640084870.html</a><br>
+<img src="img/cover.png"></p>
 <p></p>
 <div class="toc">
  <h3><a name="t0"></a>Artikelverzeichnis</h3>
