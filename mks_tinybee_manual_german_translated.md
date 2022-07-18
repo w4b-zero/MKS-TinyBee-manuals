@@ -21,133 +21,138 @@
 <h2><a name="t2"></a><a id="11_40"></a>1.1 Funktionen und Vorteile</h2>
 <p>1. Unterstützung der WLAN-Steuerung und Übertragung von Dateien;<br> 2. Die Treiberunterteilung ist auf die Wähleinstellung eingestellt, die für die Treiberunterteilungseinstellung bequemer ist;<br> 3. Die Hauptplatinenplatine nimmt das Immersionsgold an Prozess, der eine bessere Stabilität hat <br> 3. Benutzer können den Motorantrieb selbst ersetzen, unterstützen 4988, 8825, 8729, TMC2208, TMC2209, TMC2225, TMC2226; <br> 4. Reservieren Sie externe Antriebssignale, die angeschlossen werden können externe große Laufwerke zum Antrieb von 57, 86 Motoren ;<br> 5. Verwendung hochwertiger MOSFETs, bessere Wärmeableitung, Gewährleistung der Langzeitstabilität; ;<br> 7. Die stabile und zuverlässige Filterschaltung reduziert die Möglichkeit von Störungen erheblich, und vermeidet so weit wie möglich das Phänomen des Absturzes und Herumlaufens im Druckprozess;<br> 8. Verwendung des seriellen CH340-Port-Chips unter der Prämisse, Stabilität und Zuverlässigkeit zu gewährleisten. Dies reduziert die Kosten und löst das Problem des vorherigen 16U2-Treibers war schwierig zu installieren;<br> 9. Verwenden Sie die Open-Source-Firmware Marlin2.0.X-Firmware;<br> 10. Unterstützt LCD2004, LCD12864, MKS MINI12864 V1.0, MKS MINI12864 V3.0, unterstützt TFT24, TFT28, TFT32, TFT35, H43-Touchscreen, entwickelt von Maker;<br> 11. XYZ-Achsen verwenden Klemmen in verschiedenen Farben, um dem Motor und Endschalter zu entsprechen, was für die Verkabelung praktisch ist;<br> 12. Unterstützung von 3dtouch;<br> 13. Onboard TF-Kartenhalter, stabilerer Offline-Druck;</p>
 <h2><a name="t3"></a><a id="12_66"></a>1.2 Motherboard-Parameter</h2>
-<p><img src="https://img-blog.csdnimg.cn/7d97cf8ec7884f518a1f379f7f65fef5.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_12,color,_FFFFFF,t_12 " alt="Bildbeschreibung hier einfügen"></p>
+<p><img src="img/1.png"></p>
 <h2><a name="t4"></a><a id="13_71"></a>1.3 Schaltplan</h2>
-<p><img src="https://img-blog.csdnimg.cn/5353f612797d4d099f7435d81bbad1c9.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_18,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p> 
+<p><img src="img/2.png"></p> 
 <h2><a name="t5"></a><a id="14_81"></a>Zeichnung der Größe 1,4</h2>
-<p>Motherboard-Größentabelle:<br> <img src="https://img-blog.csdnimg.cn/8d6634373eeb487d8bfd0eaad0e59b6a.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p>Motherboard-Größentabelle:<br> <img src="img/3.png"></p>
 <h1><a name="t6"></a><a id="_89"></a>Zweitens Firmware herunterladen, kompilieren, aktualisieren</h1>
 <h2><a name="t7"></a><a id="21_91"></a>2.1-Firmware-Download</h2>
 <p>MKS TinyBee V1.0-Firmware-Download-Link:<br> <a href="https://github.com/makerbase-mks/MKS-TinyBee">https://github.com/makerbase-mks/MKS-TinyBee</a></p>
 <h2><a name="t8"></a><a id="22_97"></a>2.2-Firmware-Kompilierung</h2>
 <p>Firmware-Kompilierung erfordert VScode, VScode-Installations-Tutorial-Link:<br> <a href="https://www.bilibili.com/video/BV1XK4y1C7k5">https://www.bilibili.com/video/BV1XK4y1C7k5</a></p>
-<p>Firmware-Kompilierung:<br> Nachdem die Firmware-Konfiguration abgeschlossen ist, klicken Sie auf "✔" in der unteren linken Ecke der VScode-Seite, um mit der Kompilierung zu beginnen. <br> <img src="https://img-blog.csdnimg.cn/4b52bb05fecb4f8aa39d8f2c180f5946.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,t60xx21rcw==,size_14,color,_FFFF_FF " alt="Bildbeschreibung hier einfügen"></p>
+<p>Firmware-Kompilierung:<br> Nachdem die Firmware-Konfiguration abgeschlossen ist, klicken Sie auf "✔" in der unteren linken Ecke der VScode-Seite, um mit der Kompilierung zu beginnen. <br> <img src="img/4.png"></p>
 <h2><a name="t9"></a><a id="23_107"></a>Upload der 2.3-Firmware</h2>
 <p>Klicken Sie nach dem Kompilieren der Firmware auf „→“ in der unteren linken Ecke der VScode-Seite, um mit dem Hochladen der Firmware zu beginnen. </p>
-<p><img src="https://img-blog.csdnimg.cn/a0260dda2b424e20baf7c9414a725304.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/5.png"></p>
 <h1><a name="t10"></a><a id="_116"></a>Drittens die Unterteilungseinstellungen für Fahrer</h1>
 <h2><a name="t11"></a><a id="31_A4988_118"></a>3.1 A4988-Treiberunterteilungseinstellungen</h2>
 <p>A4988 Treiber-Unterteilungseinstellung, die drei Zifferblätter unterhalb des Treibers werden bis zu 16 Unterteilungen angewählt, wie in der folgenden Abbildung gezeigt (X-Achse als Beispiel):</p>
-<p><img src="https://img-blog.csdnimg.cn/e4532a4e43ee48d3abacd2f7686f24a2.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_13,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/6.png"></p>
 <h2><a name="t12"></a><a id="32_TMC2208TMC2209TMC2226_125"></a>3.2 TMC2208, TMC2209, TMC2226 Normalmodus-Jumpereinstellungen</h2>
 <p>Die drei Zifferblätter an der Unterseite der TMC2208-, TMC2209- und TMC2226-Treiber sind 16 Unterteilungen, wenn sie angewählt sind, wie in der Abbildung unten gezeigt (X-Achse als Beispiel):</p>
-<p><img src="https://img-blog.csdnimg.cn/bffb02c840674d459c5339b4a3db6516.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_13,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/7.png"></p>
 <h2><a name="t13"></a><a id="33TMC2225_133"></a>3.3 TMC2225-Jumpereinstellungen für Normalmodus</h2>
 <p>Unterteilungseinstellungen des TMC2225-Treibers, die zweite Skala unter dem Treiber ist angewählt, die erste und dritte Skala sind 16 Unterteilungen, wie in der folgenden Abbildung gezeigt (X-Achse als Beispiel):</p>
-<p><img src="https://img-blog.csdnimg.cn/18126bd32b8b48dab3535cd16a0cf2a1.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/8.png"></p>
 <h1><a name="t14"></a><a id="Marlin__145"></a>Viertens: Konfiguration der Marlin-Firmware</h1>
 <h2><a name="t15"></a><a id="41__147"></a>4.1 Firmware-Basiskonfiguration (erforderlich)</h2>
 <h3><a name="t16"></a><a id="411_149"></a>4.1.1 Platinenkonfiguration</h3>
-<p>Konfigurieren Sie das Board als BOARD_MKS_TINYBEE in der Datei configuration.h<br> <img src="https://img-blog.csdnimg.cn/171ff1699b7040c28a31991c4541b2bb.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p>Konfigurieren Sie das Board als BOARD_MKS_TINYBEE in der Datei configuration.h<br> <img src="img/9.png"></p>
 <h3><a name="t17"></a><a id="412__154"></a>4.1.2 Konfiguration der seriellen Schnittstelle</h3>
 <p>Setzen Sie den ersten seriellen Port in der Datei configuration.h auf 0, der Konfigurationsfehler führt dazu, dass das Motherboard keine Verbindung zum Computer herstellen kann; der zweite serielle Port ist auf -1 konfiguriert, die Konfigurationsfehler-Webseite wird dies nicht tun in der Lage sein, die Temperaturinformationen des Motherboards zu erhalten; Dann sind die Baudraten alle auf 115200 eingestellt. </p>
-<p><img src="https://img-blog.csdnimg.cn/b655db3275b544c2b1fcd71c5ec4dd9d.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_12,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"><br> <img src="https://img-blog.csdnimg.cn/f396f5410e3347689b6bfd279570f6e6.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_12,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/10.png"></p><p><img src="img/11.png"></p>
 <h3><a name="t18"></a><a id="413__164"></a>4.1.3 Bildschirmkonfiguration</h3>
 <p><strong>(Hinweis: Der LCD-Bildschirm kann nur einen der folgenden Bildschirme aktivieren, und das gleichzeitige Aktivieren von mehr als einem führt zu Kompilierungsfehlern)</strong><br> 1. LCD 2004-Konfiguration, in der Konfiguration Datei aktivieren</p>
 <h3><a name="t18"></a><a id="413__164"></a>4.1.3 Bildschirmkonfiguration</h3>
 <p><strong>(Hinweis: Der LCD-Bildschirm kann nur einen der folgenden Bildschirme aktivieren, und das gleichzeitige Aktivieren von mehr als einem führt zu Kompilierungsfehlern)</strong><br> 1. LCD 2004-Konfiguration, in der Konfiguration Datei aktivieren</p>
 <p>#define REPRAP_DISCOUNT_SMART_CONTROLLER</p>
-<p><img src="https://img-blog.csdnimg.cn/cd6952410fe144e29c1607e57354bfa2.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_13,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/12.png"></p>
 <p>2, LCD12864-Bildschirmkonfiguration, in der Konfigurationsdatei aktivieren</p>
 <p>#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER</p>
-<p><img src="https://img-blog.csdnimg.cn/3ddebd64323c47e186d8404ebb5cfbf6.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/13.png"></p>
 <p>3. MKS MINI12864 V1.0 Bildschirmkonfiguration</p>
 <p>In Konfigurationsdatei aktivieren</p>
 <p>#define MKS_MINI_12864</p>
-<p><img src="https://img-blog.csdnimg.cn/fcd2e5e9d6ea4f6bbcf2d60d0fda20b4.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/14.png"></p>
 <p>4. MKS MINI12864 V3.0 Bildschirmkonfiguration</p>
 <p>Aktiviere #define MKS MINI12864 V3 in der Konfigurationsdatei</p>
-<p><img src="https://img-blog.csdnimg.cn/913dd251dd67458f94e6e3b8bf0c27be.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/15.png"></p>
 <h3><a name="t19"></a><a id="414_sd_208"></a>4.1.4 SD-Karte aktivieren</h3>
-<p>Aktivieren Sie <code>#define SDSUPPORT</code><br> in der Konfigurationsdatei</p><p> <img src="https://img-blog.csdnimg.cn/77402a66b2fc4a75be397fce040d44ce.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p>Aktivieren Sie <code>#define SDSUPPORT</code><br> in der Konfigurationsdatei</p><p> <img src="img/16.png"></p>
 <h3><a name="t20"></a><a id="415_eeprom_214"></a>4.1.5 EEPROM aktivieren</h3>
 <p>In Konfigurationsdatei aktivieren</p>
 <p>#define EEPROM_SETTINGS</p>
-<p><img src="https://img-blog.csdnimg.cn/551717fef7c341569485b66d5d534334.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"><br> `</p>
+<p><img src="img/17.png"></p>
 <h3><a name="t21"></a><a id="416_LCD_226"></a>4.1.6 Spracheinstellung des LCD-Bildschirms</h3>
 <p>Setzen Sie die Sprache in der Konfigurationsdatei auf zh_CN für Chinesisch, die Voreinstellung ist Englisch. </p>
-<p><img src="https://img-blog.csdnimg.cn/3d3e8f9cfa024260be4996148e240d03.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_13,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/18.png"></p>
 <h3><a name="t22"></a><a id="417_232"></a>4.1.7 Konfiguration der Kompilierungsumgebung</h3>
 <p>Konfigurieren Sie die Kompilierungsumgebung als mks_tinybee in der Datei paltformio.ini</p>
-<p><img src="https://img-blog.csdnimg.cn/7b7fd26a30544c79b3be16db8b866d01.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_13,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/19.png"></p>
 <h2><a name="t23"></a><a id="42_238"></a>4.2 Konfiguration der Maschinenparameter (gemäß Maschinenparameter eingestellt)</h2>
 <h3><a name="t24"></a><a id="421__240"></a>4.2.1 Konfiguration der Anzahl der Extrusionsköpfe</h3>
-<p>MKS TinyBee V1.0 unterstützt bis zu 2 Extrusionsköpfe bei Verwendung von Dual-ExtrusionWenn Sie ausgehen, müssen Sie die thermischen und SD-Kartenerkennungs-Pin-Jumper des Thermoextruders 2 auf der Hauptplatine rechts einstecken. <br> <img src="https://img-blog.csdnimg.cn/0f81c768c54b4994b4be834dfbe9d2dd.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p>MKS TinyBee V1.0 unterstützt bis zu 2 Extrusionsköpfe bei Verwendung von Dual-ExtrusionWenn Sie ausgehen, müssen Sie die thermischen und SD-Kartenerkennungs-Pin-Jumper des Thermoextruders 2 auf der Hauptplatine rechts einstecken. <br> <img src="img/20.png"></p>
 <h3><a name="t25"></a><a id="422__248"></a>4.2.2 Thermische Konfiguration</h3>
-<p>MKS TinyBee V1.0 Motherboard unterstützt nur 100K Thermal, #define TEMP_SENSOR_0 ist Extrusionskopf 1, #define TEMP_SENSOR_1 ist Extrusionskopf 2, #define TEMP_SENSOR_BED ist heißes Bett<br> <img src="https://img-blog.csdnimg.cn/ee01027f02c3463d99d7844d8ff01fb8.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述">
+<p>MKS TinyBee V1.0 Motherboard unterstützt nur 100K Thermal, #define TEMP_SENSOR_0 ist Extrusionskopf 1, #define TEMP_SENSOR_1 ist Extrusionskopf 2, #define TEMP_SENSOR_BED ist heißes Bett<br> <img src="img/21.png">
 <h3><a name="t26"></a><a id="423__253"></a>4.2.3 Konfiguration des Grenzwerttyps</h3>
-<p>Konfiguration des Endschaltertyps (wahr/falsch), wahr ist ein normalerweise offener Schalter, falsch ist ein normalerweise geschlossener Schalter. <br> <img src="https://img-blog.csdnimg.cn/96a36f0fab51429d8946b68fac5f8c5c.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_13,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p>Konfiguration des Endschaltertyps (wahr/falsch), wahr ist ein normalerweise offener Schalter, falsch ist ein normalerweise geschlossener Schalter. <br> <img src="img/22.png"></p>
 <h3><a name="t27"></a><a id="424__258"></a>4.2.4 Pulseinstellungen</h3>
-<p>#define DEFAULT_AXIS_STEPS_PER_UNIT {80, 80, 400, 93} in der Konfigurationsdatei wird verwendet, um die Impulse der X-, Y-, Z- bzw. E-Achse einzustellen.Der Impulswert muss entsprechend dem tatsächlichen Wert berechnet und eingestellt werden Zustand der Maschine. <br> <img src="https://img-blog.csdnimg.cn/b5006434340a42039d0b39e89b7c3ff3.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p>#define DEFAULT_AXIS_STEPS_PER_UNIT {80, 80, 400, 93} in der Konfigurationsdatei wird verwendet, um die Impulse der X-, Y-, Z- bzw. E-Achse einzustellen.Der Impulswert muss entsprechend dem tatsächlichen Wert berechnet und eingestellt werden Zustand der Maschine. <br> <img src="img/23.png"></p>
 <h3><a name="t28"></a><a id="425__263"></a>4.2.5 Nullrichtungseinstellung</h3>
-<p>Stellen Sie die Nullungsrichtung in der Konfigurationsdatei ein, -1 ist die minimale Richtung, 1 ist die maximale Richtung<br> <img src="https://img-blog.csdnimg.cn/9299f59163524275a032596c46fa9991.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p>Stellen Sie die Nullungsrichtung in der Konfigurationsdatei ein, -1 ist die minimale Richtung, 1 ist die maximale Richtung<br> <img src="img/24.png"></p>
 <h3><a name="t29"></a><a id="426__268"></a>4.2.6 Bereichseinstellungen der Druckplattform</h3>
-<p><img src="https://img-blog.csdnimg.cn/20795625848b4c99b0eefcc29e7a0d14.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/25.png"></p>
 <h3><a name="t30"></a><a id="427_271"></a>4.2.7 Motorrichtungseinstellung</h3>
 <p>Die Einstellung der Motorrichtung, falsch und wahr, stellen die beiden Drehrichtungen dar, wenn die Bewegungsrichtung entgegengesetzt ist, kann die entgegengesetzte Konfiguration vorgenommen werden. </p>
-<p><img src="https://img-blog.csdnimg.cn/9174b1056da44c1ea539771f67e76652.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/26.png"></p>
 <h2><a name="t31"></a><a id="43_277"></a>4.3 Erweiterte Konfiguration</h2>
 <h3><a name="t32"></a><a id="431__279"></a>4.3.1 Neustart nach Stromausfall</h3>
-<p>Aktivieren Sie in der erweiterten Konfigurationsdatei configuration_adv.h<br> #define POWER_LOSS_RECOVERY und ändern Sie #define PLR_ENABLED_DEFAULT false in<br> #define PLR_ENABLED_DEFAULT true<br> <img src="https://img-blog.csdnimg.cn/8219edff6cf94ca68a944dd81d8b8ae9.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p>Aktivieren Sie in der erweiterten Konfigurationsdatei configuration_adv.h<br> #define POWER_LOSS_RECOVERY und ändern Sie #define PLR_ENABLED_DEFAULT false in<br> #define PLR_ENABLED_DEFAULT true<br> <img src="img/28.png"></p>
 <h3><a name="t33"></a><a id="432__286"></a>4.3.2 Materialbrucherkennung</h3>
-<p>Aktivieren Sie #define FILAMENT_RUNOUT_SENSOR in der Konfigurationsdatei<br> <img src="https://img-blog.csdnimg.cn/af68ce27255342ff886cba0609a66886.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p>Aktivieren Sie #define FILAMENT_RUNOUT_SENSOR in der Konfigurationsdatei<br> <img src="img/29.png"></p>
 <p>Stellen Sie den Pegel des Unterbrechungserkennungsschalters in der Konfigurationsdatei ein (LOW/HIGH)</p>
-<p><img src="https://img-blog.csdnimg.cn/7983926116664b8e9c2dacf339862257.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/30.png"></p>
 <p>Aktiviere #define NOZZLE_PARK_FEATURE in der Konfigurationsdatei</p>
-<p><img src="https://img-blog.csdnimg.cn/f3fbcda611ba4f398988775ae705b6eb.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/31.png"></p>
 <p>Aktiviere #define ADVANCED_PAUSE_FEATURE im erweiterten Profil</p>
-<p><img src="https://img-blog.csdnimg.cn/4843c569a95a47978e9c5436de773c53.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/33.png"></p>
 <p>Aktiviere #define PARK_HEAD_ON_PAUSE in der erweiterten Konfigurationsdatei</p>
-<p><img src="https://img-blog.csdnimg.cn/8029b8bbc56342a1a9329ab5fc91bc3a.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/34.png"></p>
 <h3><a name="t34"></a><a id="433_wifi_312"></a>4.3.3 WLAN-Konfiguration</h3>
 <p>Aktivieren Sie #define ESP3D_WIFISUPPORT und #define WEBSUPPORT, #define OTASUPPORT, #define WIFI_CUSTOM_COMMAND in der erweiterten Konfigurationsdatei</p>
-<p><img src="https://img-blog.csdnimg.cn/41e63e3936994b19b9b779da03caa343.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/35.png"></p>
 <h1><a name="t35"></a><a id="3dtouch_342"></a>5. Automatische 3dtouch-Nivellierungsfunktion</h1>
 <h2><a name="t36"></a><a id="51_344"></a>5.1 Sensorauslösepegel einstellen</h2>
-<p>Die Stufe von 3dtouch ist auf „false“ gesetzt<br> <img src="https://img-blog.csdnimg.cn/61defe97d19344b7b3d5f3696e134fa8.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_13,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p>Die Stufe von 3dtouch ist auf „false“ gesetzt<br> <img src="img/36.png"></p>
 <h2><a name="t37"></a><a id="52pin_349"></a>5.2 Sensorsignal-Pin einstellen</h2>
 <p>Da auf der Hauptplatine nur eine z_min-Grenzschnittstelle vorhanden ist, muss z_safe_homing aktiviert werden, um die automatische Nivellierung von 3Dtouch zu verwenden (Hinweis: Die 3Dtouch-Signalsteuerleitung ist eine 2-polige Leitung, eine schwarze und eine weiße Leitung, die weiße Leitung ist die Signalleitung, verbunden mit Z_min limit S end). </p>
-<p><img src="https://img-blog.csdnimg.cn/6092a770a3d844e89ece82d60aa3bb2f.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/37.png"></p>
 <h2><a name="t38"></a><a id="53_BLTOUCH_363"></a>5.3 BLTOUCH aktivieren</h2>
-<p><img src="https://img-blog.csdnimg.cn/066e03ec0bb44475b753b882893532b5.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/38.png"></p>
 <h2><a name="t39"></a><a id="54_367"></a>5.4 Einstellen des Versatzes zwischen Sonde und Extrusionskopf</h2>
-<p> sind die Offsets der X-, Y- bzw. Z-Achse. Die Offsets von X und Y müssen entsprechend der tatsächlichen Messung ausgefüllt werden. Z_offset kann nach der Nivellierung angepasst werden. <br> <img src="https://img-blog.csdnimg.cn/43f3eb5bbfe9426babeba5bf769cb379.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_13,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p> sind die Offsets der X-, Y- bzw. Z-Achse. Die Offsets von X und Y müssen entsprechend der tatsächlichen Messung ausgefüllt werden. Z_offset kann nach der Nivellierung angepasst werden. <br> <img src="img/39.png"></p>
 <h2><a name="t40"></a><a id="55_372"></a>5.5 Stellen Sie den Abstand zwischen dem Sensor und der Kante der Druckplattform beim Nivellieren ein</h2>
-<p>Der Wert ist standardmäßig 10 (Hinweis: Der Wert kann nicht zu klein eingestellt werden, ein zu kleiner Wert führt dazu, dass der Sensor die Plattformreichweite während des Nivellierens überschreitet, was zu einem Nivellierungsfehler führt)<br> <img src="https://img-blog.csdnimg.cn/e38d7b7bb3784d5798eac173c33ea57a.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述">
+<p>Der Wert ist standardmäßig 10 (Hinweis: Der Wert kann nicht zu klein eingestellt werden, ein zu kleiner Wert führt dazu, dass der Sensor die Plattformreichweite während des Nivellierens überschreitet, was zu einem Nivellierungsfehler führt)<br> <img src="img/40.png">
 <h2><a name="t41"></a><a id="56__378"></a>5.6 Auto-Level aktivieren</h2>
-<p>Aktivieren Sie die lineare automatische Ausrichtung in der Konfigurationsdatei<br> <img src="https://img-blog.csdnimg.cn/13dbea57e4cf435b9e4cf550ee095d63.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p>Aktivieren Sie die lineare automatische Ausrichtung in der Konfigurationsdatei<br> <img src="img/41.png"></p>
 <h2><a name="t42"></a><a id="57__383"></a>5.7 Nivellierungsrasterpunkte festlegen</h2>
 <p>Stellen Sie die Anzahl der Nivellierungspunkte in der Konfigurationsdatei ein, der Standardwert ist 3*3 Punkte</p>
-<p><img src="https://img-blog.csdnimg.cn/f610519171334ec2a360bed0cda498e6.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/42.png"></p>
 <h2><a name="t43"></a><a id="58__390"></a>5.8 Servo aktivieren</h2>
-<p>Servos in der Konfigurationsdatei aktivieren #define NUM_SERVOS 1<br> <img src="https://img-blog.csdnimg.cn/f33c6a7a97e249c6a423a5edfedcd82d.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_13,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p>Servos in der Konfigurationsdatei aktivieren #define NUM_SERVOS 1<br> <img src="img/43.png"></p>
 <h2><a name="t44"></a><a id="59__396"></a>5.9 Auto-Leveling-Datenaufrufcode hinzufügen</h2>
 <p>set_bed_leveling_enabled(true) in G28.cpp-Datei hinzufügen;</p>
-<p><img src="https://img-blog.csdnimg.cn/faac1398e72d4be7a9f8a143f24a87b1.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_13,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/44.png"></p>
 <h2><a name="t45"></a><a id="510_z_safe_homing__407"></a>5.10 z_safe_homing-Konfiguration</h2>
-<p><img src="https://img-blog.csdnimg.cn/226c7ca07e9346dc8c15bab385261335.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_15,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/45.png"></p>
 <h1><a name="t46"></a><a id="WEB_411"></a> Sechs, WEB-Verbindungskonfiguration</h1>
 <p>Die Firmware aktiviert WLAN. Nachdem das Motherboard aktualisiert wurde, ist das Standard-WLAN der AP-Modus (Local Area Network). Verwenden Sie dann den Computer oder das Mobiltelefon, um die WLAN-Liste anzuzeigen. Sie können sehen, dass der Name des WLANs marlin_esp lautet . </p>
-<p><img src="https://img-blog.csdnimg.cn/073b66ff6ac44f2887bf3fe47e31ce34.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_9,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
-<p>Geben Sie das Passwort ein, um eine WLAN-Verbindung herzustellen (das standardmäßige WLAN-Passwort lautet 12345678);<br> <img src="https://img-blog.csdnimg.cn/f2072fd22fd34f6fa93660dd90931c7c.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_9,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/46.png"></p>
+<p>Geben Sie das Passwort ein, um eine WLAN-Verbindung herzustellen (das standardmäßige WLAN-Passwort lautet 12345678);<br> <img src="img/47.png"></p>
 <p>Öffnen Sie dann den Browser und geben Sie die IP-Adresse ein, um die Weboberfläche aufzurufen (die Standard-IP-Adresse ist 192.168.0.1);</p>
-<p><img src="https://img-blog.csdnimg.cn/c1706cdfe9ae45b18b749a2c5a2b6a35.png" alt="在这里插入图片描述"></p>
+<p><img src="img/48.png"></p>
 <p>Klicken Sie dann zum Hochladen der Datei der Websteuerungsschnittstelle auf den Link zum Herunterladen der Datei: <a href="https://github.com/luc-github/ESP3DLib">https://github.com/luc-github/ESP3DLib</a></p>
-<p><img src="https://img-blog.csdnimg.cn/0b17d6432a5e465199cd951c5b83446e.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_13,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
-<p><img src="https://img-blog.csdnimg.cn/2c9f1e64e9634286b336457f23a7a5e7.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_13,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"><br> <img src="https://img-blog.csdnimg.cn/56debf0186b3416eadfb62929e9b1249.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_13,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"><br> Überprüfen Sie nach dem Hochladen die Aktualisierungszeit auf der Webseite, und Sie können die Steuerung starten, wenn Sie die Temperatur sehen<br> <<img src="https://img-blog.csdnimg.cn/7a3aa0b93893478ebb9b16849ce5a0fe.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"><br> STA-Modus-Einstellung, ESP3D-Schnittstelle aufrufen, wählen Sie dann Client Station, geben Sie den Namen und das Passwort des WLANs ein, mit dem Sie sich verbinden möchten, überprüfen Sie die Einstellungen und starten Sie das Motherboard neu. Wenn es sich um ein LCD handelt, können Sie die zugewiesene IP auf der LCD-Oberfläche anzeigen. Wenn Sie einen seriellen Anschlussbildschirm oder keinen Bildschirm verwenden, müssen Sie sich auf der Verwaltungsseite des Routers anmelden, um die IP anzuzeigen, und dann die IP erneut eingeben den Browser, um die Webseite aufzurufen. <br> <img src="https://img-blog.csdnimg.cn/1c515c1f221f45eda39f2db82b2ae2d5.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBATWFrZXJiYXNlX21rcw==,size_14,color_FFFFFF,t_70,g_se,x_16" alt="在这里插入图片描述"></p>
+<p><img src="img/49.png"></p>
+<p><img src="img/50.png"></p>
+<p><img src="img/51.png"></p>
+<p>Überprüfen Sie nach dem Hochladen die Aktualisierungszeit auf der Webseite, und Sie können die Steuerung starten, wenn Sie die Temperatur sehen</p>
+<p><img src="img/52.png"></p>
+<p>STA-Modus-Einstellung, ESP3D-Schnittstelle aufrufen, wählen Sie dann Client Station, geben Sie den Namen und das Passwort des WLANs ein, mit dem Sie sich verbinden möchten, überprüfen Sie die Einstellungen und starten Sie das Motherboard neu. Wenn es sich um ein LCD handelt, können Sie die zugewiesene IP auf der LCD-Oberfläche anzeigen. Wenn Sie einen seriellen Anschlussbildschirm oder keinen Bildschirm verwenden, müssen Sie sich auf der Verwaltungsseite des Routers anmelden, um die IP anzuzeigen, und dann die IP erneut eingeben den Browser, um die Webseite aufzurufen. </p>
+<p><img src="img/53.png"></p>
 <p>7. Technischer Support und Garantie<br>  Einschalttest wird vor der Lieferung durchgeführt, um sicherzustellen, dass es vor der Lieferung offiziell verwendet werden kann. <br>  Willkommen Freunde zur Teilnahme an der Diskussionsgruppe: 232237692<br>  Willkommen zur Blog-Kommunikation: https://blog.csdn.net/gjy_skyblue<br>  3D-Drucker-Motherboard-Anpassung, kontaktieren Sie Huang Sheng: 13148932315 Tan Sheng: 15521395023 Peng Sheng: 13427595835<br>  Wenn Sie Fragen haben, wenden Sie sich bitte an unseren Kundenservice oder finden Sie technische Supportmitarbeiter in der Gruppe, wir werden Ihnen von ganzem Herzen zur Verfügung stehen</p>
-<p><img src="https://img-blog.csdnimg.cn/a6a3a42c35454f87900b4099b230df72.png" alt="在这里插入图片描述"></p>
-<p><img src="https://img-blog.csdnimg.cn/731e32fd00934719b9a62c8717a4828c.png" alt="在这里插入图片描述"></p>
+<p><img src="img/qr1.png"></p>
+<p><img src="img/qr2.png"></p>
 
 <h1><a name="t47"></a><a id="FAQ_460"></a> Sieben, häufig gestellte Fragen</h1>
 <p>1. Was soll ich tun, wenn das Motherboard die Firmware nicht aktualisieren kann? <br> Antwort: Überprüfen Sie, ob der Computer den COM-Port des Motherboards erkennt, der Gerätemanager des Computers kann den COM-Port des CH340 sehen; <br> Wenn das Motherboard zu stark belastet wurde, wird davon abgeraten Verwenden Sie USB, um das Motherboard mit Strom zu versorgen Um die Firmware zu aktualisieren, kann es leicht vorkommen, dass die Firmware aufgrund unzureichender Stromversorgung nicht aktualisiert werden kann; <br> Das Motherboard kann nicht mit dem seriellen Bildschirm verbunden werden, während es mit dem Computer verbunden ist, um die Firmware zu aktualisieren, und Der serielle Bildschirm muss getrennt werden. </p>
